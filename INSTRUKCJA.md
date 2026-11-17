@@ -44,7 +44,7 @@ ls ~/.claude/skills/hormozi/SKILL.md
 Opcja 2, z prywatnego repozytorium na GitHubie (łatwiejsze aktualizacje). Paweł zaprasza Cię do repozytorium, a potem:
 
 ```bash
-git clone <adres-repozytorium> ~/hormozi-skill
+git clone https://github.com/TybuRak/hormozi-skill.git ~/hormozi-skill
 mkdir -p ~/.claude/skills
 ln -s ~/hormozi-skill/hormozi ~/.claude/skills/hormozi
 ```
