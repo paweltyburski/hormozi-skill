@@ -32,7 +32,7 @@ Nie istnieją: strony tematów spoza listy wyżej (np. o nastawieniu, finansach 
 
 ## Wyszukiwarka
 
-Uruchamiaj z folderu tego skilla (`python3 scripts/szukaj.py ...`; jeśli jesteś gdzie indziej, podaj pełną ścieżkę do `scripts/szukaj.py` w folderze skilla). Wymaga tylko Pythona 3, nic nie instaluje. Przy pierwszym użyciu buduje indeks (kilka sekund). Zapytania po angielsku, w słowach, jakich użyłby Hormozi lub jego rozmówca; dwa albo trzy krótkie warianty dają więcej niż jedno długie.
+Uruchamiaj z folderu tego skilla (`python3 scripts/szukaj.py ...`; jeśli jesteś gdzie indziej, podaj pełną ścieżkę do `scripts/szukaj.py` w folderze skilla). Wymaga tylko Pythona 3, nic nie instaluje. Na Windowsie zamiast `python3` użyj `python` albo `py -3` (to, co działa w tej powłoce); w PowerShellu nie ma `grep` ani `sed`, więc pliki czytaj narzędziem do odczytu plików lub `Select-String`. Przy pierwszym użyciu buduje indeks (kilka sekund). Zapytania po angielsku, w słowach, jakich użyłby Hormozi lub jego rozmówca; dwa albo trzy krótkie warianty dają więcej niż jedno długie.
 
 ```bash
 python3 scripts/szukaj.py "raise prices existing customers" --k 6
